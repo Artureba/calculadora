@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.calc {
+    width: 340px;
+    height: 510px;
+    padding: 10px;
+    background-color: silver ;
+    border-width: 10px; 
+    border-style: solid;
+    border-color:  black;
+    border-radius: 5px;
+}
+
+#calc #display {
+    text-align: right;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+    background: white; 
+    border-style: solid;
+    border-color:  black;
+    border-radius: 5px;
+  }
+
+h2 {
+    padding: 7px;
+}
+
+input {
+    width: 330px;
+    height: 45px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.corpo {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.numeros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.numeros button {
+    margin: 5px;
+}
+
+.operadores {
+    display: flex;
+    flex-direction: column;
+}
+
+.operadores button {
+    margin: 5px;
+    background: yellow;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#bt-apagar {
+    background: orange;
+}
